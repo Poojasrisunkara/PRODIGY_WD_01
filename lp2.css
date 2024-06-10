@@ -1,0 +1,346 @@
+/* Responsive styles */
+@media (max-width: 750px) and (min-width: 440px){
+    .header{
+        display: grid;
+        grid-template-columns: 8% 40% 8%;
+        column-gap: 10%;
+    }
+    .p1,.p3,.i3{
+        display: none;
+    }
+    .middle{
+        display: grid;
+        grid-template-columns: 99% 1fr;
+        column-gap: 0%;
+    }
+    .s{
+        width: 90%;
+    }
+      .container{
+        width: 100%;
+        margin: 0px;
+      }
+      .centered{
+        font-size: 13px;
+        position: absolute;
+        top: 58%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+      }
+      .p4{
+        font-size: 30px;
+      }
+      .i2{
+        padding: 20px;
+        width: 100%;
+      }
+    .b{
+        font-size: 12px;
+        padding: 10px;
+    }
+    .pd1{
+        display:block;
+        margin-right: 50px;
+    }
+    .pd2{
+        margin: 0 auto;
+        margin-bottom: 50px;
+        width: 350px;
+    }
+    .i4{
+        width: 100%;
+     }
+    .rd1{
+        display: block;
+        margin: 0;
+    }
+    .rd2,.rd3{
+        margin: 0 auto;
+        margin-bottom: 50px;
+        width: 350px;
+    }
+    }
+    @media (max-width: 440px){
+        .header{
+            display: grid;
+            grid-template-columns: 6% 45% 12%;
+            column-gap: 10%;
+        }
+        .p1,.p3,.i3,.i1,.hd1{
+            display: none;
+        }
+        .middle{
+            display: grid;
+            grid-template-columns: 99% 0px;
+            column-gap: 10%;
+        }
+        .s{
+            width: 100%;
+        }
+        .container{
+          width: 100%;
+          margin: 5%;
+        }
+        .i2{
+          margin: 0 2% 0 -1%;
+          width: 100%;
+        }
+        .centered{
+          font-size: 13px;
+          position: absolute;
+          top: 55%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        .p4{
+          font-size: 30px;
+        }
+        .i2{
+          width: 100%;
+        }
+      .b{
+          font-size: 12px;
+          padding: 10px;
+      }
+    
+    .pd1 {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+      }
+      .pd2 {
+        margin: 0 auto;
+        margin-bottom: 50px;
+        width: 80%; 
+      }
+      .rd1 {
+        display: block;
+        margin: 0 auto; 
+      }
+      .rd2{
+        margin: 0 auto;
+        margin-bottom: 50px;
+        width: 90%;
+      }
+      .rd3 {
+        margin: 0 auto;
+        margin-bottom: 50px;
+        width: 80%; 
+      }
+     .i4{
+        width: 100%;
+     }
+}
+      @media (max-width: 1200px) and (min-width: 750px){
+        .header{
+            display: grid;
+            grid-template-columns: 8% 50% 6%;
+            column-gap: 10%;
+        }
+        .p1,.p3,.i3{
+            display: none;
+        }
+        .middle{
+            display: grid;
+            grid-template-columns: 99% 1fr;
+            column-gap: 0%;
+        }
+        .s{
+            width: 90%;
+        }
+        .container{
+          width: 95%;
+        }
+        .centered{
+          font-size: 20px;
+          position: absolute;
+          top: 58%;
+          left: 52%;
+          transform: translate(-50%, -50%);
+        }
+        .p4{
+          font-size: 30px;
+        }
+        .i2{
+          padding: 20px;
+          width: 100%;
+        }
+      .b{
+          font-size: 18px;
+          padding: 20px;
+      }
+      .pd1 {
+        margin: 0 auto; 
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        column-gap: 20px;
+        row-gap: 30px;
+        margin-bottom: 50px;
+      }
+      .pd2{
+        max-width: 390px;
+      }
+      .i4{
+          width: 100%;
+       }
+       .rd1 {
+        display: block;
+        margin: 0 auto; 
+        width: 700px;
+      }
+      .rd2{
+        margin: 0 auto;
+        margin-bottom: 50px;
+      }
+      .rd3 {
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+      }
+@media (min-width: 1500px){
+  .header{
+    display:grid;
+    grid-template-columns: 30% 30% 25%;
+    column-gap: 10%;
+    padding-left: 6%;
+    height: 10%;
+    padding-top: 0.75%;
+}
+.bar1, .bar2, .bar3 {
+  width: 45px;
+  height: 6px;
+  margin: 8px 0;
+}
+.left{
+    display:grid;
+    grid-template-columns:12% 30% 30% 35% 20%;
+    column-gap: 0px;
+}
+.ld1{
+        margin-top: 43%;
+}
+.p1{
+    font-size: 55px;
+    margin:14% 5px 0px 5px;
+}
+.p3{
+    font-size: 55px;
+    margin: 14% 10px 0px 25px;
+}
+.abb{
+  margin-top: 13%
+}
+.i3{
+    width: 50px;
+    height: 50px;
+    margin-top: 30%;
+    margin-left: 18%;
+}
+.i1{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    margin-top: 12%;
+}
+.middle{
+    display:grid;
+    grid-template-columns:500px 100px;
+    column-gap: 50px;
+}
+.s{
+    width: 470px;
+    height: 55px;
+    font-size: 55px;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-top: 5%;
+ }
+.right{
+    display:grid;
+    grid-template-columns:30% 30%;
+    column-gap: 0px;
+}
+.pd1 {
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 31% 31% 31%;
+  column-gap: 50px; 
+  max-width: 1500px;
+  position: relative;
+  left: 40px; 
+}
+.p2{
+    font-size: 55px;
+    margin-top:20%;
+}
+.hd1{
+    margin-top:40px;
+}
+.i2{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 100%;
+    height: 700px;
+}
+.container {
+    padding-top: 10%;
+}
+.centered {
+    position: absolute;
+    top: 60%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+.p4{
+    font-size: 60px;
+}
+.b{
+  font-size: 30px;
+}
+.l0{
+  font-size: 25px;
+  line-height: 1.75rem;
+}
+.p7{
+    font-size: 40px;
+}
+.i4{
+    width: 100%;
+    height: 300px;;
+}
+.c1{
+    font-size: 50px;
+}
+.rd1{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 130px;
+  margin: 0 5% 0 5%;
+}
+.rd3{
+  font-size: 30px;
+}
+.rd2{
+  font-size: 30px;
+}
+.l1{
+    font-size: 30px;
+}
+.ii2{
+    width: 500px;
+    height: 300px;
+}
+.sidenav a{
+  font-size: 50px;
+}
+.sidenav .closebtn{
+  font-size: 60px;
+}
+.b1{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+}
