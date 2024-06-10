@@ -1,0 +1,207 @@
+/* Responsive styles */
+@media (max-width: 750px) and (min-width: 440px){
+    .header{
+        display: grid;
+        grid-template-columns: 8% 40% 8%;
+        column-gap: 10%;
+    }
+    .p1,.p3,.i3{
+        display: none;
+    }
+    .middle{
+        display: grid;
+        grid-template-columns: 99% 1fr;
+        column-gap: 0%;
+    }
+    .s{
+       text-align: center;
+        width: 90%;
+    }
+      .container{
+        width: 100%;
+        margin: 0px;
+      }
+      .centered{
+        font-size: 13px;
+        position: absolute;
+        top: 58%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+      }
+      .p4{
+        font-size: 30px;
+      }
+      .i2{
+        padding: 20px;
+        width: 100%;
+      }
+    .b{
+        font-size: 12px;
+        padding: 10px;
+    }
+    .pd1{
+        display:block;
+        margin-right: 50px;
+    }
+    .pd2{
+        margin: 0 auto;
+        margin-bottom: 50px;
+        width: 350px;
+    }
+    .i4{
+        width: 100%;
+     }
+    .rd1{
+        display: block;
+        margin: 0;
+    }
+    .rd2,.rd3{
+        margin: 0 auto;
+        margin-bottom: 50px;
+        width: 350px;
+    }
+    }
+    
+    
+    
+    @media (max-width: 440px){
+        .header{
+            display: grid;
+            grid-template-columns: 6% 45% 12%;
+            column-gap: 10%;
+        }
+        .p1,.p3,.i3,.i1,.hd1{
+            display: none;
+        }
+        .middle{
+            display: grid;
+            grid-template-columns: 99% 0px;
+            column-gap: 10%;
+        }
+        .s{
+            text-align: center;
+            width: 100%;
+        }
+        .container{
+          width: 100%;
+          margin: 5%;
+        }
+        .centered{
+          font-size: 13px;
+          position: absolute;
+          top: 55%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        .p4{
+          font-size: 30px;
+        }
+        .i2{
+          width: 100%;
+        }
+      .b{
+          font-size: 12px;
+          padding: 10px;
+      }
+    
+    .pd1 {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+      }
+      .pd2 {
+        margin: 0 auto;
+        margin-bottom: 50px;
+        width: 80%; 
+      }
+      .rd1 {
+        display: block;
+        margin: 0 auto; 
+      }
+      .rd2{
+        margin: 0 auto;
+        margin-bottom: 50px;
+        width: 90%;
+      }
+      .rd3 {
+        margin: 0 auto;
+        margin-bottom: 50px;
+        width: 80%; 
+      }
+    
+    
+     .i4{
+        width: 100%;
+     }
+     
+      }
+      @media (max-width: 1150px) and (min-width: 750px){
+        .header{
+            display: grid;
+            grid-template-columns: 8% 50% 6%;
+            column-gap: 10%;
+        }
+        .p1,.p3,.i3{
+            display: none;
+        }
+        .middle{
+            display: grid;
+            grid-template-columns: 99% 1fr;
+            column-gap: 0%;
+        }
+        .s{
+            text-align: center;
+            width: 90%;
+        }
+        .container{
+          width: 95%;
+        }
+        .centered{
+          font-size: 20px;
+          position: absolute;
+          top: 58%;
+          left: 52%;
+          transform: translate(-50%, -50%);
+        }
+        .p4{
+          font-size: 30px;
+        }
+        .i2{
+          padding: 20px;
+          width: 100%;
+        }
+      .b{
+          font-size: 18px;
+          padding: 20px;
+      }
+     
+      .pd1 {
+        margin: 0 auto; /* Center horizontally */
+        width: 90%; /* Adjust width to fit screen */
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        column-gap: 20px;
+        row-gap: 30px;
+        margin-bottom: 50px;
+      }
+      .pd2{
+        max-width: 390px;
+      }
+      .i4{
+          width: 100%;
+       }
+       .rd1 {
+        display: block;
+        margin: 0 auto; 
+        width: 700px;
+      }
+      .rd2{
+        margin: 0 auto;
+        margin-bottom: 50px;
+      }
+      .rd3 {
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+      }
+      
